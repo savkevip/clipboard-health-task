@@ -9,3 +9,6 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+- moved constants in upper scope so we can share them and easily change them (this can be separated file ofc) and its much more readable
+- reduced lines of neasted if/else statements and can easily understand `candidate` value
